@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100%;
+    overflow-x: none;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+.navcontainer{
+    width: 100vw;
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #2e2c4a 100%);
+
+
+}
+#navlist{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+#brand{
+    font-size: 2.8rem;
+    color: aliceblue;
+}
+#listing{
+    font-size: 2.5rem;
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+.footerbox{
+    width: 100%;
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #2e2c4a 100%);
+
+    text-align: center;
+    
+    min-height: 40px;
+}
+.footerbox p{
+    color: azure;
+    font-size: 2rem;
+}
+.contentbox{
+    max-width: 60%;
+    margin: auto;
+    border: 2px solid black;
+    background-color: #eff;
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    box-shadow: 3px 3px 30px black;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.lasagna{
+    width:390px;
+    height: 450px;
+    border-radius: 20px;
+    margin: 10px;
+    transition: all 2s linear 0s;
+    box-shadow: 11px 8px 30px black;
+}
+.lasagna:hover{
+    transform: scale(1.1);
+    
+}
+.leftbox,.righbox{
+    width: 45%;
+    padding: 10px;
+    margin: 10px;
+}
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.leftbox h2{
+    font-size: 2rem;
+}
+.ingbox{
+    font-size: 1.2rem;
+}
+.recipebox{
+    font-size: 1.2rem;
+}
